@@ -4,7 +4,7 @@
 static unsigned char Enc28j60Bank;
 static unsigned int NextPacketPtr;
 
-
+extern unsigned char	SPI1_ReadWrite(unsigned char writedat);
 /****************************************************************************
 * 名    称：void enc28j60WriteOp(unsigned char op, unsigned char address, unsigned char data)
 * 功    能：ENC28J60 寄存器操作函数
